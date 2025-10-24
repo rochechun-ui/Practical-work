@@ -32,6 +32,8 @@ def Matrix2():
                 k_product = np.prod(k_column) #вичеслення добутку з стовпця
             else:
                 print("Помилка")
+                k_sum = 0
+                k_product = 0
             matrix_eye = np.eye(m, n) #створення одиничної матриці з значенням рядів та стовпців з заданої матриці 
             matrix_sum = matrix + matrix_eye #сума заданої матриці з одиничній матрицей 
             return k_sum,k_product,matrix_sum,k
